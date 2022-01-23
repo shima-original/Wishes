@@ -75,7 +75,7 @@ h2 {
 
 .image, .photo {
     padding: 1rem;
-    border-radius: 3rem;
+    border-radius: 20px;
 } 
 
 p, .benefits, .footer {

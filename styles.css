@@ -82,11 +82,6 @@ p, .benefits, .footer {
     padding: 1rem;
 }
 
-.photo {
-    float: right;
-    padding: 1rem;
-}
-
 button {
     background-color: #FDB78F;
     background-image: -webkit-linear-gradient(top,  #FDB78F 0%, #EEE8AA 50%, #F0E68C 50%, #BDB76B 100%);
@@ -129,4 +124,6 @@ ul li:before {
     color: #FF8C00;
 }
 
-
+footer {
+	padding-bottom: 10px;
+}

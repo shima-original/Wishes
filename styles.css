@@ -70,6 +70,7 @@ h2 {
     align-items: center;
     padding: 3rem;  
     margin: 1rem;
+    font-size: 1.2rem;
 }
 
 .image, .photo {
@@ -79,6 +80,10 @@ h2 {
 
 p, .benefits, .footer {
     padding: 1rem;
+}
+
+footer {
+	padding-bottom: 1.2rem;
 }
 
 button {
@@ -123,6 +128,4 @@ ul li:before {
     color: #FF8C00;
 }
 
-footer {
-	padding-bottom: 10px;
-}
+

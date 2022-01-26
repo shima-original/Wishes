@@ -30,7 +30,6 @@ html {
 }
 
 body {
-    width: 100%;
     background-color: #244D57;
     color: burlywood;
     font-size: 1.2rem;
@@ -83,7 +82,6 @@ h2 {
 
 .image, .photo {
     border-radius: 20%;
-    padding: 1rem;
 } 
 
 p, .benefits, .footer {

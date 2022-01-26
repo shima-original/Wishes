@@ -68,7 +68,7 @@ h2 {
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
-    padding: 3rem;  
+    padding: 2rem;  
     margin: 1rem;
     max-width: 35%
 }

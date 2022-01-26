@@ -70,7 +70,9 @@ h2 {
     align-items: center;
     padding: 2rem;  
     margin: 1rem;
-    max-width: 35%
+}
+.benefits, .about {
+	max-width: 35%;
 }
 
 .image, .photo {

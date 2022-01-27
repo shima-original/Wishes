@@ -72,6 +72,10 @@ h2 {
     padding: 2rem;  
 }
 
+.image {
+     flex-shrink: 1;
+}
+
 @media screen and (min-width: 900px){
   .benefits, .about {
       max-width: 50%;

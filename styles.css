@@ -71,7 +71,6 @@ h2 {
     justify-content: space-around;
     align-items: center;
     padding: 2rem;  
-    margin: 1rem;
 }
 
 @media screen and (min-width: 900px){
@@ -80,16 +79,12 @@ h2 {
   }
 }
 
-.image, .photo {
+img .image, img .photo {
     border-radius: 20%;
 } 
 
-p, .benefits, .footer {
-    padding: 1rem;
-}
-
 footer {
-    padding-bottom: 1.2rem;
+    padding: 2rem;
 }
 
 button {

@@ -83,7 +83,7 @@ img .image, img .photo {
     border-radius: 20%;
 } 
 
-footer {
+footer, .course {
     padding: 2rem;
 }
 
@@ -115,9 +115,6 @@ button a:hover {
 
 ul {
     list-style-position: inside;
-    padding: 3%;
-    padding-top: 1%; 
-    padding-bottom: 1%;
 }
 
 ul li {
@@ -128,5 +125,7 @@ ul li:before {
     content: counter(item, disc) " ";
     color: #FF8C00;
 }
+
+
 
 

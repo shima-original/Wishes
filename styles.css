@@ -73,12 +73,7 @@ h2 {
 }
 
 .image {
-     width: 450px;
-     flex-shrink: 1;
-}
-
-.benefits {
-     flex-shrink: 1;
+     max-width: 450px;
 }
 
 @media screen and (min-width: 900px){

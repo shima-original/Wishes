@@ -60,7 +60,6 @@ h1 {
 }
 
 h2 {
-    padding: 1rem;
     font-size: 1.7rem;
     line-height: 2rem;
 }
@@ -73,18 +72,13 @@ h2 {
     padding: 2rem;  
 }
 
-.benefits {
-    max-width: 100%;
-    overflow: visible;
-}
-
 @media screen and (min-width: 900px){
   .benefits, .about {
       max-width: 50%;
   }
 }
 
-img .image, img .photo {
+.image img, .photo img {
     border-radius: 20%;
 } 
 

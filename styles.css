@@ -73,6 +73,7 @@ h2 {
 }
 
 .image {
+     width: 450px;
      flex-shrink: 1;
 }
 

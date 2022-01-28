@@ -110,7 +110,20 @@ button a {
 }
 
 button a:hover {
-    text-decoration: underline;
+    background-color: #FFD700;
+    background-image: -webkit-linear-gradient(top, #FFD700 0%, #FFA500 50%, #FF8C00 50%, #FF4500 100%);
+    background-image: -moz-linear-gradient(top, #FFD700 0%, #FFA500 50%, #FF8C00 50%, #FF4500 100%);
+    background-image: -o-linear-gradient(top, #FFD700 0%, #FFA500 50%, #FF8C00 50%, #FF4500 100%); 
+    background-image: linear-gradient(top, #FFD700 0%, #FFA500 50%, #FF8C00 50%, #FF4500 100%); 
+    border: 1px solid #951100;
+    box-shadow: inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4), 0 1px 3px #333333;
+    text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 200%;
     }
 
 ul {

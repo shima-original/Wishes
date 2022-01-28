@@ -72,15 +72,23 @@ h2 {
     padding: 2rem;  
 }
 
+.image img, .photo img {
+    border-radius: 20%;
+} 
+
+.image img {
+    width: 200px;	
+}
+
+
 @media screen and (min-width: 900px){
      .benefits, .about {
 	max-width: 50%;     
       }
+     .image img {
+	    width: 450px; 
+      }
 }
-
-.image img, .photo img {
-    border-radius: 20%;
-} 
 
 .footer, .course {
     padding: 2rem;
@@ -108,7 +116,7 @@ button a {
     color: #244D57;
 }
 
-button a:hover {
+button:hover {
     background-color: #FFD700;
     background-image: -webkit-linear-gradient(top, #FFD700 0%, #FFA500 50%, #FF8C00 50%, #FF4500 100%);
     background-image: -moz-linear-gradient(top, #FFD700 0%, #FFA500 50%, #FF8C00 50%, #FF4500 100%);
@@ -128,7 +136,4 @@ ul li:before {
     content: counter(item, disc) " ";
     color: #FF8C00;
 }
-
-
-
 

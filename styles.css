@@ -72,6 +72,10 @@ h2 {
     padding: 2rem;  
 }
 
+.wishes {
+	box-sizing: border-box;
+}
+
 @media screen and (min-width: 900px){
   .benefits, .about {
       max-width: 50%;

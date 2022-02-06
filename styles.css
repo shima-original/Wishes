@@ -70,6 +70,8 @@ h2 {
     justify-content: space-around;
     align-items: center;
     padding: 2rem;  
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 .image img, .photo img {

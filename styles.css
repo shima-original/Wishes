@@ -92,7 +92,7 @@ h2 {
       }
 }
 
-.footer, .course {
+.footer, .course, .benefits {
     padding: 2rem;
 }
 
@@ -138,4 +138,3 @@ ul li:before {
     content: counter(item, disc) " ";
     color: #FF8C00;
 }
-
